@@ -1,5 +1,5 @@
 {
-    "name": "aurora-launcher-app",
+    "name": "fox-launcher-app",
     "version": "0.0.5-dev_2",
     "description": "Launcher for Minecraft",
     "main": "out/main/index-obf.loader.js",
@@ -56,8 +56,8 @@
         "yaml": "^2.5.0"
     },
     "dependencies": {
-        "@aurora-launcher/proto": "^0.1.0",
-        "@aurora-launcher/core": "^0.24.0",
+        "@aurora-launcher/proto": "github:StelStelox/aurora-launcher-proto-stable#main",
+        "@aurora-launcher/core": "github:StelStelox/aurora-launcher-core-stable#main",
         "@freshgum/typedi": "^0.7.2",
         "@xhayper/discord-rpc": "^1.1.4",
         "bufferutil": "^4.0.8",
