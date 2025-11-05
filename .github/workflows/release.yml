@@ -2,7 +2,7 @@ name: Releases Build
 
 on:
   push:
-    branches: [master]
+    branches: [features/new-net-steck]
 
 jobs:
   build:
