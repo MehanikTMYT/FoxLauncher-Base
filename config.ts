@@ -4,62 +4,74 @@ export const window = {
     width: 900,
     height: 550,
     frame: false,
-    resizable: false,
-    maximizable: false,
-    fullscreenable: false,
-    title: 'Aurora Launcher',
+    resizable: true,
+    maximizable: true,
+    fullscreenable: true,
+    title: 'Fox Launcher',
 };
 
 export const api = {
-    grpc: 'http://127.0.0.1:1371',
-    web: 'http://127.0.0.1:1370',
+    grpc: 'http://mehhost.ru:1371',
+    web: 'http://mehhost.ru:1370',
     publicKey,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.fox-launcher';
 
 export const discordRPC = {
-    appId: '1214685301793103902',
+    appId: '1233096203395137677',
     default: {
-        firstLineText: 'Тестирую лаунчер',
-        secondLineText: 'Чувак, ты думал здесь что-то будет?',
+        firstLineText: 'В главном меню',
+        secondLineText: 'Готовится к запуску Minecraft',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт проекта',
+                url: 'https://mehhost.ru',
+            },
+            {
+                label: 'Регистрация',
+                url: 'https://mehhost.ru/register',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'Fox Launcher',
         smallImageText: 'Minecraft',
     },
     profile: {
-        firstLineText: 'Выбираю тестируемый профиль игры',
-        secondLineText: 'Загружаю {server}',
+        firstLineText: 'Выбор профиля',
+        secondLineText: 'Загрузка мира: {server}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт проекта',
+                url: 'https://mehhost.ru',
+            },
+            {
+                label: 'Регистрация',
+                url: 'https://mehhost.ru/register',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'Fox Launcher',
         smallImageText: 'Minecraft',
     },
     game: {
-        firstLineText: 'Играю на тестовом сервере',
-        secondLineText: 'Играю за {nickname}',
+        firstLineText: 'В игре',
+        secondLineText: 'Игрок: {nickname}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт проекта',
+                url: 'https://mehhost.ru',
+            },
+            {
+                label: 'Регистрация',
+                url: 'https://mehhost.ru/register',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'Fox Launcher',
         smallImageText: 'Minecraft',
     },
 };
