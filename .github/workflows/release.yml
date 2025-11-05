@@ -13,7 +13,7 @@ jobs:
         include:
           - os: ubuntu-latest
           - os: windows-latest
-          - os: macos-latest
+
 
     steps:
       - uses: actions/checkout@v4
@@ -38,8 +38,7 @@ jobs:
 
       - name: Download dependencies
         run: npm i
-      - name: Download distutils
-        run: npm i distutils
+        
       - name: Build Launcher
         run: npm run build
 
